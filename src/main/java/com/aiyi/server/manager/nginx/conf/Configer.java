@@ -3,6 +3,7 @@ package com.aiyi.server.manager.nginx.conf;
 
 import com.aiyi.server.manager.nginx.common.CommonFields;
 import com.aiyi.server.manager.nginx.utils.PropsUtils;
+import org.springframework.beans.factory.annotation.Value;
 
 /**
  * 工程配置操作类
@@ -16,8 +17,10 @@ import com.aiyi.server.manager.nginx.utils.PropsUtils;
  */
 public class Configer {
 
+  @Value("${nginx.path}")
   private static String NginxPath = null;
-  
+
+  @Value("${nginx.config}")
   private static String NginxConfPath = null;
   
   /**

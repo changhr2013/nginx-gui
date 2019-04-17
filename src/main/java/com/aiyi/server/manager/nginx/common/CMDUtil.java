@@ -59,7 +59,10 @@ public class CMDUtil {
     return msg;
   }
   
-  public static void main(String[] args) {
-    System.out.println(excuse("nginx -t -c E:\\guoshengkai\\development\\package\\nginx-1.8.1\\conf\\testConf.conf", "E:\\guoshengkai\\development\\package\\nginx-1.8.1\\"));
+  public static void main(String[] args) throws IOException {
+//    System.out.println(excuse("nginx -t -c D:\\software\\nginx-1.14.2\\conf\\nginx.conf", "D:\\software\\nginx-1.14.2\\"));
+
+//    Runtime.getRuntime().exec("cmd /c start nginx", null, new File("D:/software/nginx-1.14.2/"));
+    Runtime.getRuntime().exec("cmd /c nginx -s stop", null, new File("D:/software/nginx-1.14.2/"));
   }
 }
