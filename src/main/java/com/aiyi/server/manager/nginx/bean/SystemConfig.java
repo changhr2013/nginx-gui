@@ -2,165 +2,165 @@ package com.aiyi.server.manager.nginx.bean;
 
 /**
  * 系统信息
- * @author guo
  *
+ * @author guo
  */
 public class SystemConfig {
 
-	/**
-	 * 计算机名
-	 */
-	private String name;
-	
-	/**
-	 * 系统名称
-	 */
-	private String osName;
-	
-	/**
-	 * 系统版本
-	 */
-	private String osVersion;
-	
-	/**
-	 * 系统架构
-	 */
-	private String osArch;
-	
-	/**
-	 * 登录用户
-	 */
-	private String userName;
-	
-	/**
-	 * 用户主目录
-	 */
-	private String userHome;
-	
-	/**
-	 * 计算机所在域
-	 */
-	private String domain;
-	
-	/**
-	 * IP地址
-	 */
-	private String ip;
-	
-	/**
-	 * Mac地址
-	 */
-	private String mac;
-	
-	/**
-	 * Java版本
-	 */
-	private String javaVersion;
-	
-	/**
-	 * java提供商
-	 */
-	private String javaVendor;
-	
-	/**
-	 * Java安装路径
-	 */
-	private String javaHome;
+    /**
+     * 计算机名
+     */
+    private String name;
 
-	public String getName() {
-		return name;
-	}
+    /**
+     * 系统名称
+     */
+    private String osName;
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    /**
+     * 系统版本
+     */
+    private String osVersion;
 
-	public String getOsName() {
-		return osName;
-	}
+    /**
+     * 系统架构
+     */
+    private String osArch;
 
-	public void setOsName(String osName) {
-		this.osName = osName;
-	}
+    /**
+     * 登录用户
+     */
+    private String userName;
 
-	public String getOsVersion() {
-		return osVersion;
-	}
+    /**
+     * 用户主目录
+     */
+    private String userHome;
 
-	public void setOsVersion(String osVersion) {
-		this.osVersion = osVersion;
-	}
+    /**
+     * 计算机所在域
+     */
+    private String domain;
 
-	public String getOsArch() {
-		return osArch;
-	}
+    /**
+     * IP地址
+     */
+    private String ip;
 
-	public void setOsArch(String osArch) {
-		this.osArch = osArch;
-	}
+    /**
+     * Mac地址
+     */
+    private String mac;
 
-	public String getUserName() {
-		return userName;
-	}
+    /**
+     * Java版本
+     */
+    private String javaVersion;
 
-	public void setUserName(String userName) {
-		this.userName = userName;
-	}
+    /**
+     * java提供商
+     */
+    private String javaVendor;
 
-	public String getUserHome() {
-		return userHome;
-	}
+    /**
+     * Java安装路径
+     */
+    private String javaHome;
 
-	public void setUserHome(String userHome) {
-		this.userHome = userHome;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public String getDomain() {
-		return domain;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public void setDomain(String domain) {
-		this.domain = domain;
-	}
+    public String getOsName() {
+        return osName;
+    }
 
-	public String getIp() {
-		return ip;
-	}
+    public void setOsName(String osName) {
+        this.osName = osName;
+    }
 
-	public void setIp(String ip) {
-		this.ip = ip;
-	}
+    public String getOsVersion() {
+        return osVersion;
+    }
 
-	public String getMac() {
-		return mac;
-	}
+    public void setOsVersion(String osVersion) {
+        this.osVersion = osVersion;
+    }
 
-	public void setMac(String mac) {
-		this.mac = mac;
-	}
+    public String getOsArch() {
+        return osArch;
+    }
 
-	public String getJavaVersion() {
-		return javaVersion;
-	}
+    public void setOsArch(String osArch) {
+        this.osArch = osArch;
+    }
 
-	public void setJavaVersion(String javaVersion) {
-		this.javaVersion = javaVersion;
-	}
+    public String getUserName() {
+        return userName;
+    }
 
-	public String getJavaVendor() {
-		return javaVendor;
-	}
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
 
-	public void setJavaVendor(String javaVendor) {
-		this.javaVendor = javaVendor;
-	}
+    public String getUserHome() {
+        return userHome;
+    }
 
-	public String getJavaHome() {
-		return javaHome;
-	}
+    public void setUserHome(String userHome) {
+        this.userHome = userHome;
+    }
 
-	public void setJavaHome(String javaHome) {
-		this.javaHome = javaHome;
-	}
-	
+    public String getDomain() {
+        return domain;
+    }
+
+    public void setDomain(String domain) {
+        this.domain = domain;
+    }
+
+    public String getIp() {
+        return ip;
+    }
+
+    public void setIp(String ip) {
+        this.ip = ip;
+    }
+
+    public String getMac() {
+        return mac;
+    }
+
+    public void setMac(String mac) {
+        this.mac = mac;
+    }
+
+    public String getJavaVersion() {
+        return javaVersion;
+    }
+
+    public void setJavaVersion(String javaVersion) {
+        this.javaVersion = javaVersion;
+    }
+
+    public String getJavaVendor() {
+        return javaVendor;
+    }
+
+    public void setJavaVendor(String javaVendor) {
+        this.javaVendor = javaVendor;
+    }
+
+    public String getJavaHome() {
+        return javaHome;
+    }
+
+    public void setJavaHome(String javaHome) {
+        this.javaHome = javaHome;
+    }
+
 }

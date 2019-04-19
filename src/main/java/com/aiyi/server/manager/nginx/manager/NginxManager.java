@@ -24,7 +24,7 @@ import com.aiyi.server.manager.nginx.utils.PropsUtils;
 @Component
 public class NginxManager {
 
-  private Logger logger = Logger.getLogger(getClass());
+  private static final Logger logger = Logger.getLogger(NginxManager.class);
   
   /**
    * 服务是否启动

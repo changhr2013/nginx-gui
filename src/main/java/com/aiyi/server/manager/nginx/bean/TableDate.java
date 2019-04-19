@@ -4,44 +4,44 @@ import java.util.ArrayList;
 
 public class TableDate {
 
-  private long size;
-  
-  private long start;
-  
-  private long length;
-  
-  private Object list = new ArrayList<>();
+    private long size;
 
-  public long getSize() {
-    return size;
-  }
+    private long start;
 
-  public void setSize(long size) {
-    this.size = size;
-  }
+    private long length;
 
-  public long getStart() {
-    return start;
-  }
+    private Object list = new ArrayList<>();
 
-  public void setStart(long start) {
-    this.start = start;
-  }
+    public long getSize() {
+        return size;
+    }
 
-  public long getLength() {
-    return length;
-  }
+    public void setSize(long size) {
+        this.size = size;
+    }
 
-  public void setLength(long length) {
-    this.length = length;
-  }
+    public long getStart() {
+        return start;
+    }
 
-  public Object getList() {
-    return list;
-  }
+    public void setStart(long start) {
+        this.start = start;
+    }
 
-  public void setList(Object list) {
-    this.list = list;
-  }
-  
+    public long getLength() {
+        return length;
+    }
+
+    public void setLength(long length) {
+        this.length = length;
+    }
+
+    public Object getList() {
+        return list;
+    }
+
+    public void setList(Object list) {
+        this.list = list;
+    }
+
 }

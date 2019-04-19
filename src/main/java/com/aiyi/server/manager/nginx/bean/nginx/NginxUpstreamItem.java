@@ -2,39 +2,39 @@ package com.aiyi.server.manager.nginx.bean.nginx;
 
 /**
  * Nginx反向代理容器参数
- * @author guoshengkai
  *
+ * @author guoshengkai
  */
 public class NginxUpstreamItem {
 
-	/**
-	 * 代理地址
-	 */
-	private String address;
-	
-	/**
-	 * 权重
-	 */
-	private int weight;
+    /**
+     * 代理地址
+     */
+    private String address;
 
-	public String getAddress() {
-		return address;
-	}
+    /**
+     * 权重
+     */
+    private int weight;
 
-	public void setAddress(String address) {
-		this.address = address;
-	}
+    public String getAddress() {
+        return address;
+    }
 
-	public int getWeight() {
-		return weight;
-	}
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
-	public void setWeight(int weight) {
-		this.weight = weight;
-	}
-	
-	@Override
-	public String toString() {
-		return "server " + address + " weight=" + weight + ";";
-	}
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    @Override
+    public String toString() {
+        return "server " + address + " weight=" + weight + ";";
+    }
 }

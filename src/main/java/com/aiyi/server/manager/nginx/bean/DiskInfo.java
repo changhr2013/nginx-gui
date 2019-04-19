@@ -5,13 +5,8 @@ import org.hyperic.sigar.FileSystemUsage;
 
 /**
  * 磁盘信息
- * @Project : nginx
- * @Program Name : com.aiyi.server.manager.nginx.bean.DiskInfo
- * @Description : 
- * @Author : 郭胜凯
- * @Creation Date : 2018年2月7日 下午1:07:50
- * @ModificationHistory Who When What ---------- ------------- -----------------------------------
- *                      郭胜凯 2018年2月7日 create
+ * @ModificationHistory Who When What
+ * > 2019-04-19 | 郭胜凯 | create
  */
 public class DiskInfo {
 

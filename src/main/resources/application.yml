@@ -11,5 +11,5 @@ page-store:
   location: D:\store
 
 nignx:
-  config: D:/software/nginx-1.14.2/conf/nginx.conf
-  path: D:/software/nginx-1.14.2/
+  config: C:/software/nginx-1.14.2/conf/nginx.conf
+  path: C:/software/nginx-1.14.2/
