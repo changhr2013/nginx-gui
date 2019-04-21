@@ -1,19 +1,13 @@
 package com.aiyi.server.manager.nginx.conf;
 
-
 import com.aiyi.server.manager.nginx.common.CommonFields;
 import com.aiyi.server.manager.nginx.utils.PropsUtils;
 import org.springframework.beans.factory.annotation.Value;
 
 /**
  * 工程配置操作类
- * @Project : nginx
- * @Program Name : com.aiyi.server.manager.nginx.conf.Configer
- * @Description : 
- * @Author : 郭胜凯
- * @Creation Date : 2018年2月1日 下午5:10:33
- * @ModificationHistory Who When What ---------- ------------- -----------------------------------
- *                      郭胜凯 2018年2月1日 create
+ * @ModificationHistory Who When What
+ *                      郭胜凯 2019/4/21 create
  */
 public class Configer {
 
@@ -25,7 +19,6 @@ public class Configer {
   
   /**
    * 获得Nginx所在的路径
-   * @Description : 
    * @return : String
    * @Creation Date : 2018年2月1日 下午5:11:45
    * @Author : 郭胜凯
